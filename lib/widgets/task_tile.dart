@@ -32,7 +32,7 @@ class TaskTile extends StatelessWidget {
         child: Card(
           elevation: 8,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(18),
           ),
           color: Colors.white,
           shadowColor: Colors.blueAccent,
@@ -46,7 +46,7 @@ class TaskTile extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: task.done ? Colors.green : Colors.white,
+                      color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
                     ),
                     padding: const EdgeInsets.all(10),
